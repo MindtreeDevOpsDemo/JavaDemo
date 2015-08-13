@@ -42,13 +42,11 @@ public class BaseControllerTest {
      * Test of welcome method, of class BaseController.
      */
     @Test
-    public void testWelcome() {
-        System.out.println("welcome");
+    public void testWelcome() {        
         ModelMap model = null;
         BaseController instance = new BaseController();
         String expResult = "hi";
-        String result = "hi";
-        System.out.println(result);
+        String result = "hi";        
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
